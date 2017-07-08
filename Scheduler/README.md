@@ -5,6 +5,7 @@ A quick and dirty Raspberry Pi project that displays someone's initial (informin
 This project was built to be deployed on a [Raspberry Pi](https://www.raspberrypi.org), using the [Sense HAT](https://www.raspberrypi.org/products/sense-hat/). You could probably modify it to use a different display/button.
 
 ## Software Dependencies
+* [Sense HAT](https://pythonhosted.org/sense-hat/) — `sudo apt-get install sense-hat`
 * [Twilio Python Helper Library](https://www.twilio.com/docs/libraries/python) — `pip install twilio` and update the credentials in [`scheduler.py`](./scheduler.py).
 
 ## Configuration
