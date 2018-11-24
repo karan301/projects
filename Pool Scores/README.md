@@ -3,7 +3,7 @@
 I'd wager that [GamePigeon][1]'s 8-Ball is the most used iMessage app out there. It feels like everyone (myself included) plays it. But how does go about keeping score?[^1] I used to type the score after every game but after forgetting / losing track a couple of times, I decided to build a [shortcut][2] to semi-automate the process.
 
 ## Getting started
-Other than the [GamePigeon][3] and [Shortcuts][4] apps (both free on the App Store), you'll need both of the following shortcuts: [Manage Pool Opponents][5]and [Pool Scores][6].
+Other than the [GamePigeon][3] and [Shortcuts][4] apps (both free on the App Store), you'll need both of the following shortcuts: [Manage Pool Opponents][5] and [Pool Scores][6].
 
 The first thing you do is run `Manage Pool Opponents`, which is a Normal shortcut (it only shows up in the Shortcuts app, not the widget). It'll ask for your name the first time you run it, and to set a file name[^2]. The shortcut will then ask if you would like to 'Add an opponent' or 'Remove an opponent'. Choose the former, enter the name of your opponent, and choose if you want to initialize scores. If you say yes, you can set the score to what your current scores are. If not, it'll set the score to 0-0. Repeat this for each of your opponents. It'll save your scores as `'Pool Scores'` in Shortcuts' iCloud Drive directory.
 
