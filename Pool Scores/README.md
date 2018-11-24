@@ -1,9 +1,9 @@
 # Shortcut for keeping 8-Ball Scores
 
-I'd wager that [GamePigeon](https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh)'s 8-Ball is the most used iMessage app out there. It feels like everyone (myself included) plays it. But how does go about keeping score?[^1] I used to type the score after every game but after forgetting / losing track a couple of times, I decided to build a [shortcut](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh) to semi-automate the process.
+I'd wager that [GamePigeon][1]'s 8-Ball is the most used iMessage app out there. It feels like everyone (myself included) plays it. But how does go about keeping score?[^1] I used to type the score after every game but after forgetting / losing track a couple of times, I decided to build a [shortcut][2] to semi-automate the process.
 
 ## Getting started
-Other than the [GamePigeon](https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh) and [Shortcuts](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh) apps (both free on the App Store), you'll need both of the following shortcuts: [Manage Pool Opponents](./Manage\ Pool\ Opponents.shortcut) and [Pool Scores](./Pool\ Scores.shortcut).
+Other than the [GamePigeon][3] and [Shortcuts][4] apps (both free on the App Store), you'll need both of the following shortcuts: [Manage Pool Opponents][5]and [Pool Scores][6].
 
 The first thing you do is run `Manage Pool Opponents`, which is a Normal shortcut (it only shows up in the Shortcuts app, not the widget). It'll ask for your name the first time you run it, and to set a file name[^2]. The shortcut will then ask if you would like to 'Add an opponent' or 'Remove an opponent'. Choose the former, enter the name of your opponent, and choose if you want to initialize scores. If you say yes, you can set the score to what your current scores are. If not, it'll set the score to 0-0. Repeat this for each of your opponents. It'll save your scores as `'Pool Scores'` in Shortcuts' iCloud Drive directory.
 
@@ -53,7 +53,15 @@ This shortcut grabs an existing dictionary (make sure you run the `Manage Pool O
 9. The shortcut copies `My Score - Opponent Score` to clipboard, so you can share it with your opponent if you want.
 10. The shortcut displays the text `MyName MyScore-OpponentScore OpponentName`.
 
-----
+---- 
 
 [^1]:	The app keeps track of how many games you've won, but it doesn't sync across devices (so iPhone and iPad keep different scores) and it doesn't let you know your opponent's score. I've also found the number to be inconsistent.
+
 [^2]:	I expect most people to leave this as the default. Truthfully, it only exists so that I can more easily test and debug when I add new features without messing with my canonical dictionary.
+
+[1]:	https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh
+[2]:	https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh
+[3]:	https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh
+[4]:	https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh
+[5]:	./Manage%20Pool%20Opponents.shortcut
+[6]:	./Pool%20Scores.shortcut
