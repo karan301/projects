@@ -1,3 +1,5 @@
+# Shortcut for keeping 8-Ball Scores
+
 I'd wager that [GamePigeon](https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh)'s 8-Ball is the most used iMessage app out there. It feels like everyone (myself included) plays it. But how does go about keeping score?[^1] I used to type the score after every game but after forgetting / losing track a couple of times, I decided to build a [shortcut](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh) to semi-automate the process.
 
 ## Getting started
