@@ -3,6 +3,7 @@ A collection of small, self-contained projects that I've been working on. Check 
 
 ## Contents
 * [Scheduler](/Scheduler/)
+* [Pool Scores](/Pool\ Scores/)
 
 ----
-_Updated on July 7, 2017 by Karan Varindani._
+_Updated on November 24, 2018 by Karan Varindani._
