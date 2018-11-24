@@ -59,6 +59,9 @@ This shortcut grabs an existing dictionary (make sure you run the `Manage Pool O
 
 [^2]:	I expect most people to leave this as the default. Truthfully, it only exists so that I can more easily test and debug when I add new features without messing with my canonical dictionary.
 
+---- 
+_Updated on November 24, 2018 by Karan Varindani._
+
 [1]:	https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh
 [2]:	https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8&uo=4&at=10l6nh
 [3]:	https://itunes.apple.com/us/app/gamepigeon/id1124197642?mt=8&uo=4&at=10l6nh
