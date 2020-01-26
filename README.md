@@ -6,7 +6,7 @@ A collection of small, self-contained projects that I've been working on. Check 
 * [Pool Scores][2]
 
 ---- 
-_Updated on January 26, 2020 by Karan Varindani._
+_Updated on November 24, 2018 by Karan Varindani._
 
 [1]:	/Scheduler/
 [2]:	/Pool%20Scores/
